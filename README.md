@@ -10,11 +10,11 @@ Simple and powerful data grid with high customize fx data grid.
 
 ### Template Usage:
 
-<body ng-controller="TableCtrl as vm">
+<div ng-controller="TableCtrl as vm">
     <fx-data-grid data="vm.data" item-renderers="vm.itemRenderers" column="vm.column" 
     			  grid-options="vm.gridOptions">
     </fx-data-grid>
-</body>
+</div>
 
 ### Controller:
 
