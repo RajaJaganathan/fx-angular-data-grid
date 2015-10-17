@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gridApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Data Grid</title>
+    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
+    <script type="text/javascript" src="../vendor/js/lodash.js"></script>
+    <script type="text/javascript" src="../vendor/js/angular.js"></script>
+    <script type="text/javascript" src="../vendor/js/angular-sanitize.js"></script>
+    <script type="text/javascript" src="app/datagrid/datagrid.module.js"></script>
+    <script type="text/javascript" src="app/datagrid/datagrid.directives.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+</head>
+
+<body ng-controller="TableCtrl as table">
+    <fx-data-grid data="table.data" item-renderers="table.itemRenderers" column="table.column" grid-options="table.gridOptions">
+    </fx-data-grid>
+</body>
+
+</html>

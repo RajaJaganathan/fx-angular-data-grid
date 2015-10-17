@@ -1,0 +1,15 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th ng-repeat="col in grid.column">
+                {{::col.headerText}}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="row in grid.data">
+            <td ng-repeat="col in grid.column" grid-item-renderer item-renderers="grid.itemRenderers" item="row" column="col" grid-options="grid.gridOptions">
+            </td>
+        </tr>
+    </tbody>
+</table>
