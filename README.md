@@ -87,4 +87,8 @@ app.directive('ageIndicatorItemRenderer', [function() {
         
 ```
 
+fxDataGrid:
+
+![fxAngularDataGrid](https://raw.githubusercontent.com/RajaJaganathan/fx-angular-data-grid/master/assets/datagrid.png "fx angular data grid")
+
 Inspired by Adobe Flex DataGrid
