@@ -13,8 +13,8 @@
     <script type="text/javascript" src="app/app.js"></script>
 </head>
 
-<body ng-controller="TableCtrl as table">
-    <fx-data-grid data="table.data" item-renderers="table.itemRenderers" column="table.column" grid-options="table.gridOptions">
+<body ng-controller="TableCtrl as vm">
+    <fx-data-grid data="vm.data" item-renderers="vm.itemRenderers" column="vm.column" grid-options="vm.gridOptions">
     </fx-data-grid>
 </body>
 
